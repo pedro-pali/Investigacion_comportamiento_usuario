@@ -17,3 +17,8 @@ Realicé un histograma para visualizar las fechas con los datos registrados y co
 ## Paso 4.
 Realicé el análisis de embudo de eventos, creando un gráfico para su visualización. 
 Lo cual concluí que en el transito de etapas donde se pierden más clientes es de la pantalla principal a la página de las ofertas (Se debe de hacer un análisis más exaustivo con otros departamentos de este punto para encontrar una posible mejora). También es bueno saber que un 48% de los clientes que inician sesión llega hasta el final del embudo que es el pago del pedido, es un tasa de retención final muy buena.
+
+## Paso 5.
+Realicé una prueba z para conocer si había diferencia estadísticamente significativa entre los grupos de control (A/A) al evento de "pago exitoso".
+Después, esta misma prueba la convertí a una función para hacer la comparativa entre todos los grupos (A/A--246/2478), (A/B--246/248), (A/B--247/248) en todos los eventos (1. Página principal, 2. Página de oferta, 3. Carrito de compra y 4. Pago exitoso).
+Concluyendo, no es necesario implementar los cambios propuestos del grupo de prueba, ya que no hay una diferencia comprobable que nos explica que realmente es una mejora.
